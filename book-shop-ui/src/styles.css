@@ -1,0 +1,63 @@
+/* src/styles.css */
+
+/* ... (Your existing styles) ... */
+
+/* Additional Styles */
+
+h1 {
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.book-list-header,
+.shopping-cart-header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.book-details p {
+  margin: 5px 0;
+}
+
+.book-details h2 {
+  color: #4caf50;
+}
+
+.cart-total {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.cart-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cart-item {
+  background-color: #fff;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item img {
+  width: 80px;
+  height: 120px;
+  margin-right: 10px;
+}
+
+.empty-cart-message {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 20px;
+  color: #777;
+}
+
+/* Add more styles as needed */
